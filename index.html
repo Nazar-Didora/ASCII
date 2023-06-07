@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compability">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shadows+Into+Light">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courier+Prime">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+      <div class="container">
+          <canvas id="canvas1"></canvas>
+
+          <div class="controls">
+              <label for="resolution" id="resolutionLabel">Original image</label>
+              <input type="range" id="resolution" name="resolution" min="1" max="20" value="1">
+          </div>
+          <div class="button">
+            <input type="file" id="fileInput" accept="image/*">
+            <label for="fileInput">
+              Choose image
+            </label>
+          </div>
+          <button id="download">
+            <span class="material-icons">arrow_downward</span>
+          </button>
+          
+          <button id="colorButton">Toggle color</button>
+      
+      </div>  
+      
+    
+      <script src="script.js"></script>
+
+  </body>
+  </html>
